@@ -1,0 +1,39 @@
+.contact {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgba(80, 120, 252, 0.945);
+  color: white;
+}
+
+.h2 {
+  text-align: center;
+  color: rgb(253, 253, 253);
+  /* margin-top: 60px; */
+}
+.text {
+  text-align: center;
+}
+.p {
+  margin-top: 30px;
+  color: white;
+  font-size: 32px;
+}
+
+.hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 0;
+  border-top: 1px solid rgb(255, 254, 254);
+  box-sizing: content-box;
+  height: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+.update{
+    font-size: 12px;
+    text-align: center;
+}

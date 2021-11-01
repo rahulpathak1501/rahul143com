@@ -1,0 +1,257 @@
+.certificate {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 1rem 0;
+  background-image: url("F:\ReactAppTutorial\my_site\src\AllFiles\images.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* .img {
+  background-image: url("F:\my_site\src\AllFiles\images.jpg");
+  width: 100%;
+  height: auto;
+  /*opacity: 0.3;
+  object-fit: cover;
+  
+} */
+
+.h2 {
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  color: #4ca6ff;
+}
+/* .timeline {
+  position: relative;
+  padding: 0;
+  list-style: none;
+} */
+/* row {
+  position: absolute;
+  display: list-item;
+  text-align: -webkit-match-parent;
+} */
+
+.timeline {
+  position: relative;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  background: #006e51;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -1px;
+}
+
+.container {
+  padding: 15px 30px;
+  position: relative;
+  background: inherit;
+  width: 50%;
+}
+
+.container.left {
+  left: 0;
+}
+
+.container.right {
+  left: 50%;
+}
+
+.container::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: calc(50% - 8px);
+  right: -8px;
+  background: #ffffff;
+  border: 2px solid #006e51;
+  border-radius: 16px;
+  z-index: 1;
+}
+
+.container.right::after {
+  left: -8px;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  top: calc(50% - 1px);
+  right: 8px;
+  background: #006e51;
+  z-index: 1;
+}
+
+.container.right::before {
+  left: 8px;
+}
+
+.container .date {
+  position: absolute;
+  display: inline-block;
+  top: calc(50% - 8px);
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  /* color: #006e51; */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  z-index: 1;
+}
+
+.container.left .date {
+  right: -150px;
+  color: aliceblue;
+}
+
+.container.left .date:hover {
+  right: -145px;
+  color: rgb(1, 135, 252);
+  display: block;
+  /* padding: 14px 16px; */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.986);
+  background-color: black;
+}
+
+.container.right .date {
+  left: -150px;
+  color: #ffffff;
+}
+
+.container.right .date:hover {
+  left: -145px;
+  color: rgb(1, 135, 252);
+  display: block;
+  /* padding: 14px 16px; */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.986);
+  background-color: black;
+}
+
+.container .icon {
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 9px 0;
+  top: calc(50% - 20px);
+  background: transparent;
+  border: 2px solid #006e51;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 18px;
+  /* color: #006e51; */
+  z-index: 1;
+}
+
+.container.left .icon {
+  right: 56px;
+}
+
+.container.right .icon {
+  left: 56px;
+}
+
+.container .content {
+  padding: 30px 90px 30px 30px;
+  background: transparent;
+  position: relative;
+  box-shadow: 0 2px 8px rgba(36, 1, 1, 0.26);
+  /*border-radius: 0 500px 500px 0;*/
+  background-color: rgba(83, 179, 243, 0.5);
+  border-color: yellow;
+}
+
+.container.right .content {
+  padding: 30px 30px 30px 90px;
+  /*border-radius: 500px 0 0 500px;*/
+}
+
+.container .content h2 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: normal;
+  color: #0f0f0f;
+}
+
+.h {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: normal;
+  color: #0f0f0f;
+}
+
+.container .content .p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
+/* .container .content .p:hover {
+    margin: 5px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #f85a5a;
+  } */
+
+@media (max-width: 767.98px) {
+  .timeline::after {
+    left: 90px;
+  }
+
+  .container {
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 30px;
+  }
+
+  .container.right {
+    left: 0%;
+  }
+
+  .container.left::after,
+  .container.right::after {
+    left: 82px;
+  }
+
+  .container.left::before,
+  .container.right::before {
+    left: 100px;
+    border-color: transparent #006e51 transparent transparent;
+  }
+
+  .container.left .date,
+  .container.right .date {
+    right: auto;
+    left: 15px;
+  }
+
+  .container.left .icon,
+  .container.right .icon {
+    right: auto;
+    left: 146px;
+  }
+
+  .container.left .content,
+  .container.right .content {
+    padding: 30px 30px 30px 90px;
+    border-radius: 500px 0 0 500px;
+  }
+}

@@ -1,0 +1,56 @@
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+  position:-webkit-sticky;
+  position: sticky;
+  /* position: absolute; */
+  top: 0;
+}
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+.li {
+  float: right;
+}
+
+.a {
+  display: block;
+  color: #666;
+  cursor: pointer;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.li:hover {
+  background-color: rgb(53, 0, 245);
+  color: black;
+}
+
+.a:hover:not(.active) {
+  background-color: rgb(172, 172, 172);
+}
+.active {
+  color: white;
+  background-color: #04aa6d;
+}
+
+/* .logo
+{
+    position: relative;
+    background: url("../AllFiles/Rahul Pathak-logos_black.jpg");
+    width: 170px;
+    max-height: 70px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
