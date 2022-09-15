@@ -15,9 +15,9 @@ function AboutPage() {
       <Card className={classes.aboutpage}>
         <h2 className={classes.h2}>Hi, I am Rahul Pathak</h2>
         <p className={classes.p}>
-          I have two years overall experience with 1.5 years of project
+          I have two years overall experience with 3 years of project
           experience in Wipro Technology as a Drupal Content Developer.In this
-          1.5 years of I work as a Drupal developer to develop content
+          3 years of I work as a Drupal developer to develop content
           management using Drupal CMS. Assist with Drupal custom module and
           content management functionality.Work with stakeholders in the
           business to look for ways to improve performance, simplify
