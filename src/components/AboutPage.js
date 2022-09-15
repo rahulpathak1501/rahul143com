@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import classes from "./AboutPage.module.css";
 //import RecentCV from "./RecentCV";
 import { Col, Row } from "react-bootstrap";
-import Pdf from "../AllFiles/Resume/Rahul's Resume (1).pdf";
+import Pdf from "../AllFiles/Resume/Rahul_Pathak.pdf";
 //import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "font-awesome/css/font-awesome.min.css";
 import profilephoto from "../AllFiles/rahul.JPG";
