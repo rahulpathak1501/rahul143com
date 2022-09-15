@@ -39,7 +39,7 @@ function Contact() {
           </Col>
         </Row>
         <Row>
-          <Col></Col>
+          <Col md={1}></Col>
           <Col md={5}>
             <a
               target="_blank"
@@ -53,7 +53,7 @@ function Contact() {
               </Row>
             </a>
           </Col>
-          <Col></Col>
+          <Col md={1}></Col>
         </Row>
         <br />
         <p className={classes.update}>Last updated: 15th Sept 2022</p>
