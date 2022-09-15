@@ -1,16 +1,21 @@
-import "bootstrap/dist/css/bootstrap.css"
-//import { Dropdown } from "react-bootstrap";
-import CV1stpage from "../AllFiles/CV1stpage.jpg"
-import CV2ndpage from "../AllFiles/CV2ndpage.jpg"
+import "bootstrap/dist/css/bootstrap.css";
+import Pdf from "../AllFiles/Resume/Rahul_Resume.pdf";
 
 function RecentCV() {
-    return(
-        <div>
-            <img src ={CV1stpage} height={1000} width={1000} alt={CV1stpage}></img>
-            <img src ={CV2ndpage} height={1000} width={1000} alt={CV2ndpage}></img>
-        </div>
-
-    )
+  return (
+    <div></div>
+    /*<div>
+        {url:http://localhost:3000/static/media/Rahul_Resume.a5d5f220.pdf}
+      {/* <a href={Pdf}>
+        <iframe
+          style={{ width: "1200px", height: "753px" }}
+          src={Pdf}
+          type="application/pdf"
+          title="title"
+        />
+      </a> 
+    </div>*/
+  )
 }
 
 export default RecentCV;

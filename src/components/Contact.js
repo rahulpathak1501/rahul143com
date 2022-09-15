@@ -16,12 +16,11 @@ function Contact() {
               rel="noreferrer"
               href="https://github.com/rahulpathak1501"
             >
-              <Row>
+              <row>
                 <p className={classes.p}>
-                  <i className="fa fa-github" /> 
-                  {" "} github.com/rahulpathak1501
+                  <i className="fa fa-github" /> github.com/rahulpathak1501
                 </p>
-              </Row>
+              </row>
             </a>
           </Col>
           <Col md={6}>
@@ -38,7 +37,10 @@ function Contact() {
               </Row>
             </a>
           </Col>
-          <Col md={12}>
+        </Row>
+        <Row>
+          <Col></Col>
+          <Col md={5}>
             <a
               target="_blank"
               rel="noreferrer"
@@ -46,15 +48,15 @@ function Contact() {
             >
               <Row>
                 <p className={classes.p}>
-                  <i className="fa fa-envelope" />
-                  {" "} rahul2.pathak3297@gmail.com
+                  <i className="fa fa-envelope" /> rahul2.pathak3297@gmail.com
                 </p>
               </Row>
             </a>
           </Col>
+          <Col></Col>
         </Row>
         <br />
-        <p className={classes.update}>Last updated: 21th Oct 2021</p>
+        <p className={classes.update}>Last updated: 15th Sept 2022</p>
         <br />
       </Card>
     </footer>

@@ -8,9 +8,9 @@ function Certificate() {
     <React.Fragment>
       <div id="certificate">
         <Card className={classes.certificate}>
-          <h2 className={classes.h2}>Certificates</h2>
-          <hr></hr>
-          <Row>
+          <Row className={classes.row}>
+            <h2 className={classes.h2}>Certificates</h2>
+            <hr />
             <Row className={classes.timeline}>
               <div className={`${classes.container} ${classes.left}`}>
                 <div className={classes.date}>20th Nov 2021</div>

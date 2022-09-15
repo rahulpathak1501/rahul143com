@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import classes from "./AboutPage.module.css";
 //import RecentCV from "./RecentCV";
 import { Col, Row } from "react-bootstrap";
-import Pdf from "../AllFiles/Resume/Rahul_Resume.pdf";
+import Pdf from "../AllFiles/Resume/Rahul_Pathak.pdf";
 //import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "font-awesome/css/font-awesome.min.css";
 import profilephoto from "../AllFiles/rahul.JPG";
@@ -40,7 +40,11 @@ function AboutPage() {
         <Row>
           {/* PP */}
           <Col md={6} sm={6}>
-            <img src={profilephoto} className={classes.pp} alt="Rahul Pathak"></img>
+            <img
+              src={profilephoto}
+              className={classes.pp}
+              alt="Rahul Pathak"
+            ></img>
           </Col>
 
           <Col md={6} sm={6}>
@@ -63,39 +67,36 @@ function AboutPage() {
         </Row>
         <br></br>
         <Row>
-          <Col md={4} sm={4}>
+          <Col md={4} sm={4} className={classes.i}>
             {/* <FontAwesomeIcon icon={["fab", "facebook-f"]} /> */}
             <a
               target="_blank"
               rel="noreferrer"
               href="https://github.com/rahulpathak1501"
             >
-              <p className={classes.i}>
-                <i className="fa fa-github fa-2x " />
-              </p>
+              <i
+                className="fa fa-github fa-2x "
+                style={{ textAlign: "center" }}
+              />
             </a>
           </Col>
-          <Col md={4} sm={4}>
+          <Col md={4} sm={4} className={classes.i}>
             {/* <FontAwesomeIcon icon={["fab", "facebook-f"]} /> */}
             <a
               target="_blank"
               rel="noreferrer"
               href="https://www.linkedin.com/in/rahul-pathak-00ab2010a/"
             >
-              <p className={classes.i}>
-                <i className="fa fa-linkedin-square fa-2x " />
-              </p>
+              <i className="fa fa-linkedin-square fa-2x " />
             </a>
           </Col>
-          <Col md={4} sm={4}>
+          <Col md={4} sm={4} className={classes.i}>
             <a
               target="_blank"
               rel="noreferrer"
               href="mailto:rahul2.pathak3297@gmail.com"
             >
-              <p className={classes.i}>
-                <i className="fa fa-envelope fa-2x" />
-              </p>
+              <i className="fa fa-envelope fa-2x" />
             </a>
           </Col>
           {/* <SocialBadge url='http://github.com/mackiedrew' /> */}

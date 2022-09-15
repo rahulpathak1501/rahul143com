@@ -7,22 +7,29 @@ import Certificate from "./components/Certificate";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Card from "./UI/Card";
+//import RecentCV from "./components/RecentCV";
 
 import classes from "./App.module.css";
-//import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 //import { Route } from "react-router";
 
 function App() {
   return (
-    <Card className={classes.appcontrol}>
-      <WelComeHeader />
-      <NavBar />
-      <AboutPage />
-      <Experience />
-      <Certificate />
-      <Skills />
-      <Contact />
-    </Card>
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <Card className={classes.appcontrol}>
+            <WelComeHeader />
+            <NavBar />
+            <AboutPage />
+            <Experience />
+            <Certificate />
+            <Skills />
+            <Contact />
+          </Card>
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
